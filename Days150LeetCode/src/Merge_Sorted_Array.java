@@ -13,7 +13,7 @@ public class Merge_Sorted_Array {
         
     }
 
-    //Init Solution!
+    //Init Solution! - nlogn
     //Over this solution we first created with 1 variable which will itearate over the records in the second arrayList
     //Second we will run an for or while loop till all the elements form second array is covered
     //and set all the values of second array into first array at the place where the first array main value ends, which is after m elements
@@ -32,7 +32,7 @@ public class Merge_Sorted_Array {
     }
 
 
-    //Fastest Solution
+    //Fastest Solution (Two Pointer, Array) - n
     //Over this solution we created 2 variables which stores the actual length of values present in both of the arrays(num1valueLength, num2valueLength) (for both array)
     // then created 1 more variable to store the total lenth of longest array(totalvalLength)
     //then starting iterating over the all the elements available in array 2 till the value of actuall lenth of that array >= 0
